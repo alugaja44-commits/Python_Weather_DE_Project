@@ -97,7 +97,7 @@ ipython_config.py
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
+#   commonly ignored for libra  ries.
 #uv.lock
 
 # poetry
@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific
+data/
+logs/
+database/
+ Project data
+data/
+database/
+*.parquet
+*.csv
+*.json
